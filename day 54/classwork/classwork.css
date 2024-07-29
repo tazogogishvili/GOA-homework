@@ -1,0 +1,19 @@
+
+button{
+    font-size: medium;
+    border: 2px;
+    border-color: black;
+    color: red;
+}
+
+button:hover{
+    color: aqua;
+    background-color: black;
+}
+
+button:active{
+    border-radius: 5px;
+    color: rgb(217, 255, 0);
+    background-color: rgb(75, 75, 75);
+}
+

@@ -1,0 +1,15 @@
+button{
+    font-size: larger;
+    color: green;
+    border: 5px black solid;
+}
+
+button:hover{
+    color: red;
+    background-color: aqua;
+}
+
+button:active{
+    color: blue;
+    background-color: black;
+}

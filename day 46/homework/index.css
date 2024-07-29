@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+}
+
+nav{
+    text-align:start;
+    width: 100px;
+}
+
+header img{
+    height: 80px;
+}
+
+body{
+    background-image: url(images/backgound.jpg);
+    background-size: cover;
+}
+
+header{
+    background-color: #8B632D;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    width: 450px;
+    display: flex;
+    align-items: center;
+}

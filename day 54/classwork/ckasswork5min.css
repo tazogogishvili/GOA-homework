@@ -1,0 +1,30 @@
+
+#parent{
+    display: inline-flex;
+    border: 5px solid black;
+}
+
+
+
+
+
+#child{
+    display: inline-flex;
+    box-sizing: border-box; 
+
+    width: 400px;
+    height: 200px;
+    
+    border: 5px solid red;
+    background-color: yellow;
+
+    padding: 30px 15px;
+    margin: 50px 50px 50px 15px;
+    
+}
+
+
+
+
+/* box-sizing: content-box  დეფაულტ ზომა  */
+/* box-sixing: border-box გაწერილი შიგთავსის ზომას არ ცდება ყუთის სიგანე სიმაღლე */

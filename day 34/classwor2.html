@@ -1,0 +1,54 @@
+<!-- 
+1) შექმენით 5 ტიპის input და გატესტეთ როგორ მუშაობს, გამოიტანეთ <br>-ების მეშვეობით
+ლამაზად, კარგი ფორმა მიეცით
+
+2) პირველ დავალებაში გაკეთებულ input'ებს მიუწერეთ კომენტარები და თქვენი სიტყვებით
+ახსენით რომელი რას აკეთებს. ასევე ბოლოშ მიამატეთ ახსნა როგორ და რისი მეშვეობით ვაკავშირებთ
+input-ს და label-ს.
+
+3) ასევე გატესტეთ input type number.-->
+
+
+
+
+<html>
+    <head>
+        <title>Document</title>
+    </head>
+    
+    <body>
+        <form>
+            <label for="name">Name: </label> <!-- მომხმარებელს შემოაქვს სახელი-->
+            <input type="text" id="name"name="name" required>
+            <br><br>
+
+            <label for="lastname">Lastname: </label> <!--მომხამრებელს შემოაქ გვარი-->
+            <input type="text" id="lastnaem" required>
+            <br><br>
+
+            <p>Enter Your age: <input type="date"></p> <!--input  data type-ს დახმარებით მომხამრებელს შემოაქ ასაკი-->
+            
+            <!-- მომხმარებელს შემოაქვს ენდერი -->
+            <input type="radio" id="gender">
+            <label for="gender">Male</label>
+            <input type="radio" id="gender1">
+            <label for="gender1">Famale</label>
+            <br><br>
+            
+            <!-- მომხმარებელს შემოაქვს email და password -->
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+            <br>
+            <label for="password">Pasword</label>
+            <input type="password"id="password" required>
+            <br><br>
+
+            <label for="numbers">Enter your balance</label>
+            <input type="number" id="numbers">
+            
+            <!-- მომხმარებელი აგზავნის იფორმაციას -->
+            <p>If you fill in, press submit: <input type="submit"></p>
+        </form>
+    </body>
+</html>
+<!-- name=" შემოტანილი ინფორმაცია" -->

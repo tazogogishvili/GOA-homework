@@ -1,0 +1,135 @@
+#box1{
+    width: 400px;
+    height: 300;
+
+
+    background-image: url(./images/tbilisi.jpg);
+    background-position: center;
+    background-size:cover;
+    
+    margin: 30px;
+    border-radius: 10px;
+      
+}
+#box1 p{
+    color: white;
+
+    padding: 35%;
+    font-size: 30PX;
+}
+
+
+
+#box2{
+    width: 400px;
+    height: 300;
+
+
+    background-image: url(./images/dubai.webp);
+    background-position: center;
+    background-size:cover;
+    
+    margin: 30px;
+    border-radius: 10px; 
+}
+#box2 p{
+    color: white;
+
+    text-align: center;
+    padding: 35%;
+    font-size: 30PX;
+}
+
+
+
+#box3{
+    width: 400px;
+    height: 300;
+
+
+    background-image: url(./images/paris.jpg);
+    background-position: center;
+    background-size:cover;
+    
+    margin: 30px;
+    border-radius: 10px; 
+}
+#box3 p{
+    color: white;
+
+    text-align: center;
+    padding: 35%;
+    font-size: 30PX;
+}
+
+
+
+
+#box4{
+    width: 400px;
+    height: 300;
+
+
+    background-image: url(./images/south\ korea.jpg);
+    background-position: center;
+    background-size:cover;
+    
+    margin: 30px;
+    border-radius: 10px; 
+}
+#box4 p{
+    color: white;
+
+    text-align: center;
+    padding: 35%;
+    font-size: 30PX;
+}
+
+
+
+
+#box5{
+    width: 400px;
+    height: 300;
+
+
+    background-image: url(./images/tokyo.jpg);
+    background-position: center;
+    background-size:cover;
+    
+    margin: 30px;
+    border-radius: 10px; 
+}
+#box5 p{
+    color: white;
+
+    text-align: center;
+    padding: 35%;
+    font-size: 30PX;
+}
+
+
+
+#box6{
+    width: 400px;
+    height: 300;
+
+
+    background-image: url(./images/new\ york.jpg);
+    background-position: center;
+    background-size:cover;
+    
+    margin: 30px;
+    border-radius: 10px; 
+}
+#box6 p{
+    color:white;
+
+    text-align: center;
+    padding: 35%;
+    font-size: 30PX;
+}
+
+.box{
+    display: inline-flex;
+}

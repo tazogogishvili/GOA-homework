@@ -1,0 +1,48 @@
+body{
+    background-image: url(images/backgound.jpg);
+}
+
+form{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    margin: auto;
+    padding: 40px;
+    width: 350px;
+    font-size: xx-large;
+    color: #000000;
+}
+
+input{
+    background-color: #ffffff;
+    color: aliceblue;
+    font-size: large;
+    border-radius: 15px;
+}
+
+label{
+    font-size: larger;
+}
+
+button{
+    font-size: large;
+    border-radius: 15px;
+}
+
+nav{
+    font-size: x-large;
+}
+
+ul{
+    margin: auto;
+    width: 50;
+    text-align: center;
+}
+
+ul a{
+    text-align: center;
+    margin: 10px;
+    text-decoration: none;
+}
